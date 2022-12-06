@@ -1,0 +1,9 @@
+const STATUS_ENUM = {
+  OPEN: "OPEN",
+  PICKED_UP: "PICKED_UP",
+  IN_TRANSIT: "IN_TRANSIT",
+  DELIVERED: "DELIVERED",
+  FAILED: "FAILED",
+};
+
+module.exports = STATUS_ENUM;
